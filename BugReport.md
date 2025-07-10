@@ -7,7 +7,7 @@ The issue arises in the `checkForDeactivation()` method of the `AppSchedulingInf
 ```
 java.lang.NullPointerException,
     at org.apache.hadoop.yarn.server.resourcemanager.scheduler.AppSchedulingInfo.checkForDeactivation(AppSchedulingInfo.java:383),
-    at org.apache.hadoop.yarn.server.resourcemanager.scheduler.AppSchedulingInfo.decrementOutstanding(AppSchedulingInfo.java:375)
+    at org.apache.hadoop.yarn.server.resourcemanager.scheduler.AppSchedulingInfo.decrementOutstanding(AppSchedulingInfo.java:375),
     at org.apache.hadoop.yarn.server.resourcemanager.scheduler.AppSchedulingInfo.allocateOffSwitch(AppSchedulingInfo.java:360),
     at org.apache.hadoop.yarn.server.resourcemanager.scheduler.AppSchedulingInfo.allocate(AppSchedulingInfo.java:270)
 ```
